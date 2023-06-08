@@ -68,12 +68,12 @@ function showLocation(response) {
 }
 
 function showPosition(position) {
-  /*console.log(position);
-  //console.log(position.coords.latitude);
-  //console.log(position.coords.longitude);
-  let lati = position.coords.latitude;
-  let longi = position.coords.longitude;
-  //alert(longi); */
+  //console.log(position);
+  console.log(position.coords.latitude);
+  console.log(position.coords.longitude);
+  //let lati = position.coords.latitude;
+  // let longi = position.coords.longitude;
+  // alert(longi);
 
   let loca = document.querySelector("#input").value;
   console.log(loca);
