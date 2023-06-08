@@ -106,10 +106,10 @@ function calculateToBack(event) {
   change.innerHTML = Math.round(celciusTemp);
 }
 
-let loc = document.querySelector("form");
+let loc = document.querySelector("#search-form");
 console.log(loc);
 //locationz.addEventListener("click", getCurrentPosition); //for the current location
-loc.addEventListener("click", showPosition);
+loc.addEventListener("submit", showPosition);
 
 let far = document.querySelector("#faranhite");
 console.log(far);
